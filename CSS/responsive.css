@@ -1,0 +1,178 @@
+/* For Tablet */
+@media (min-width:601px) and (max-width:992px) {
+    .home {
+        width: 100% !important;
+    }
+
+    .home .home-section {
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .home .home-section .home-heading {
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+
+    .about-section {
+        max-width: 800px;
+    }
+
+    .about-section .about-img img {
+        height: 400px;
+        margin: 0;
+        padding: 0 24px;
+    }
+
+    .about-section .about-content .about-heading {
+        letter-spacing: 1px;
+    }
+
+    .about-section .about-content {
+        margin: 0;
+        padding: 0 24px;
+    }
+
+    .about-section .about-content .about-description {
+        letter-spacing: 1px;
+    }
+
+    .menu-section {
+        max-width: 800px !important;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .menu-section .menu-content .ourmenu {
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+    }
+
+    .menu-section .menu-content {
+        margin-left: 20px;
+    }
+
+    .menu-section .menu-img img {
+        padding: 14px 24px;
+        width: 100% !important;
+    }
+
+    .contact-section {
+        width: 100%;
+        margin-top: 45px;
+        margin-bottom: 50px;
+        padding: 24px;
+    }
+
+    .contact-section .contact-content .contact-head {
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        margin-bottom: 50px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .logo {
+        margin: 0;
+        padding: 0 24px;
+    }
+
+    /* .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        background-color: #000;
+        transition: all .5s;
+    } */
+
+    .navbar ul li {
+        display: none;
+    }
+
+    /* .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navbar ul {
+        left: 0;
+        display: block;
+    } */
+
+    .home {
+        width: 100% !important;
+    }
+
+    .home .home-section {
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .home .home-section .home-heading {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        /* font-weight: bold; */
+    }
+
+    .about-section {
+        margin-bottom: 50px;
+    }
+
+    .about-section .about-content .about-heading {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    .about-section .about-content .about-description {
+        letter-spacing: 1px;
+    }
+
+    .about-section .about-img {
+        display: none;
+    }
+
+    .about-section .about-content {
+        padding: 12px 24px;
+    }
+
+    .menu-section {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .menu-section .menu-content {
+        margin: 0;
+        padding: 14px 24px;
+    }
+
+    .menu-section .menu-content .ourmenu {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+
+    .menu-section .menu-img img {
+        width: 100%;
+        height: 550px;
+        padding: 12px 24px;
+    }
+
+    .contact-section {
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 14px 16px;
+    }
+
+    .contact-section .contact-content .contact-head {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}

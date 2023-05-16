@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 64px;
+    letter-spacing: 4px;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    margin-right: 25px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 4px 16px;
+
+}
+
+.navbar ul li a {
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover,
+a:active {
+    line-height: 50px;
+    background-color: #ddd;
+}
+
+.home {
+    position: relative;
+    background: url('../PICS/homeimg.jpg') no-repeat top center;
+    background-size: cover;
+    padding-top: 50%;
+    z-index: -1;
+}
+
+.home .home-section {
+    position: absolute;
+    bottom: 70px;
+    left: 2%;
+    text-align: center;
+    color: #333333
+}
+
+.home .home-section .home-heading {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.about-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.about-section .about-img img {
+    height: 600px;
+    margin-right: 50px;
+}
+
+.about-section .about-content .about-heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.about-section .about-content .about-subheading {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 6px;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+
+.word {
+    background-color: #666666;
+    color: #fff;
+}
+
+.about-section .about-content .about-description {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.line {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.menu-section .menu-content {
+    margin-right: 50px;
+}
+
+.menu-section .menu-content .ourmenu {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-section .menu-content .menu-items .menu-heading {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.menu-section .menu-content .menu-items .menu-description {
+    margin-bottom: 60px;
+    opacity: 0.7;
+}
+
+.contact-section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.contact-section .contact-content .contact-head {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.contact-section .contact-content .contact-subheading {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.contact-section .contact-content .contact-add {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.contact-section .contact-content .contact-des {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.contact-section .contact-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 16px 0;
+    border-width: 0 0 1px 0;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 8px 24px;
+    background-color: #f1f1f1;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 60px 64px;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+}
+
+.footer a:hover,
+a:active {
+    color: green
+}
