@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navigation {
@@ -49,12 +50,13 @@
     line-height: 50px;
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+   transition: 0.2s ease-in;
 }
 
-.navbar ul li a:hover,
-a:active {
-    line-height: 50px;
-    background-color: #ddd;
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s   
 }
 
 .home {
